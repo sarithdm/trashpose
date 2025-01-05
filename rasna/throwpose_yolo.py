@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import numpy as np
 
 # Load the YOLOv8 pose model
-model = YOLO("yolov8-pose.pt")  # Ensure you have the pose model
+model = YOLO("yolov8n-pose.pt")  # Ensure you have the pose model
 
 def is_throw_pose(keypoints):
     """
