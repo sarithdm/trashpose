@@ -50,7 +50,7 @@ human_positions = deque(maxlen=30)
 trash_positions = deque(maxlen=30)
 
 # Start video capture from file
-video_path = 'throw_video_yes.mp4'
+video_path = 'throw_video.mp4'
 cap = cv2.VideoCapture(video_path)
 
 while cap.isOpened():
@@ -67,7 +67,6 @@ while cap.isOpened():
         keypoints = results[0].keypoints.xy.cpu().numpy()
         #print(keypoints)
         
-
         # Ensure there are enough keypoints detected
         if len(keypoints) > 1:
             # Detect throwing pose
