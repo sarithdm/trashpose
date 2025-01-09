@@ -1,1 +1,1 @@
-pip install python-dotenv,pymongo
+pip install python-dotenv,pymongo, mediapipe
