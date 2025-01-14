@@ -12,7 +12,7 @@ motion_history = []
 
 def calculate_angle(a, b, c):
     """
-    Calculates the angle between three points.
+    Calculates the angle between three points.fff
     Args:
         a, b, c: Points with x and y attributes.
     Returns:
