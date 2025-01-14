@@ -12,11 +12,11 @@ motion_history = []
 
 def calculate_angle(a, b, c):
     """
-    Calculates the angle between three points.
+    Calculates the angle between three points.,,,
     Args:
         a, b, c: Points with x and y attributes.
     Returns:
-        Angle in degrees.
+        Angle in degrees. ddd
     """
     a = np.array([a.x, a.y])
     b = np.array([b.x, b.y])
